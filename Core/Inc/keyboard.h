@@ -326,6 +326,10 @@ uint8_t Keyboard_GetKeyPressed(void);
 
 // Reference pattern functions (called from main loop)
 uint8_t Read_Keys(void);
+//Visakh on 12/07/2026***********starts
+uint8_t Read_Keys_Stable(void);
+uint8_t Keys_GetEvent(void);
+//Visakh on 12/07/2026***********ends
 void Keycheck_Normal(void);
 void Keycheck_Calibration(void);
 void Fast_value_Inc(void);

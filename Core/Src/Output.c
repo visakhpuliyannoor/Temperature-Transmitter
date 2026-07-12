@@ -355,19 +355,19 @@ void AnalogOutput_Init(TIM_HandleTypeDef *htim)
     pwm_timer = htim;
 
     /* defaults */
-    AOPHandler.pulse_value     = 0;
-    AOPHandler.virtual_value   = 0;
-    AOPHandler.output_low      = 0;
-    AOPHandler.output_high     = 2000;
-    AOPHandler.output_decimal  = 1;
-    AOPHandler.direction       = OUTPUT_UP_SCALE;
-    AOPHandler.offset          = 0;
-    AOPHandler.output_value    = 0;
-    AOPHandler.sensor_fault    = false;
-
-    /* calibration defaults - will be loaded from FRAM */
-    AOPHandler.cal_output_lo   = OUTPUT_4MA;   /* 200 */
-    AOPHandler.cal_output_hi   = OUTPUT_20MA;  /* 999 */
+//    AOPHandler.pulse_value     = 0;
+//    AOPHandler.virtual_value   = 0;
+//    AOPHandler.output_low      = 0;
+//    AOPHandler.output_high     = 2000;
+//    AOPHandler.output_decimal  = 1;
+//    AOPHandler.direction       = OUTPUT_UP_SCALE;
+//    AOPHandler.offset          = 0;
+//    AOPHandler.output_value    = 0;
+//    AOPHandler.sensor_fault    = false;
+//
+//    /* calibration defaults - will be loaded from FRAM */
+//    AOPHandler.cal_output_lo   = OUTPUT_4MA;   /* 200 */
+//    AOPHandler.cal_output_hi   = OUTPUT_20MA;  /* 999 */
 
     calibration_bypass_mode = false;
 
